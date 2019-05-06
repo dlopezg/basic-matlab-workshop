@@ -1,4 +1,4 @@
-%% CURSO BASICO DE MATLAB - 2018 (errorConsecutivos.m)
+%% CURSO BASICO DE MATLAB - 2019 (analizar_vector.m)
 % -------------------------------------------------------------------------
 % David Lopez-Garcia
 % dlopez@ugr.es
@@ -10,17 +10,14 @@ clear all
 
 % En este ejercicio tenemos buscar si en un vector existen dos numeros
 % iguales en posiciones consecutivas, y si es asi, avisar de en que
-% posicion esta pasando. Para ello generaremos un vector de numeros
-% aleatorios comprendidos entre 0 y 100 de 2000 posiciones.
+% posicion esta pasando.
 
-% OBJETIVO: Buscar el error y corregirlo
+load data_vector.mat
 
-vector = randi([0 100],1,2000); % Vector de 2000 posiciones rand[0-100]
-
-for i = 1 : length(vector)
+for i = 1 : length(data_vector)-1
     
-    posicionActual = vector(i);
-    posicionSiguiente = vector(i+1);
+    posicionActual = data_vector(i);
+    posicionSiguiente = data_vector(i+1);
     
     if posicionActual == posicionSiguiente
         posicion = int2str(i);

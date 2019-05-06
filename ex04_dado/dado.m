@@ -20,15 +20,15 @@ resultado = randi (rango, 1, 1);
 
 switch resultado
     case 1
-        disp('¡Ha salido 1!');
+        disp('Ha salido 1!');
     case 2
-        disp('¡Ha salido 2!');
+        disp('Ha salido 2!');
     case 3
-        disp('¡Ha salido 3!');
+        disp('Ha salido 3!');
     case 4
-        disp('¡Ha salido 4!');
+        disp('Ha salido 4!');
     case 5
-        disp('¡Ha salido 5!');
+        disp('Ha salido 5!');
     case 6
-        disp('¡Ha salido 6!');
+        disp('Ha salido 6!');
 end

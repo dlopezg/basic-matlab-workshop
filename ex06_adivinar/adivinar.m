@@ -1,8 +1,8 @@
-%% CURSO BASICO DE MATLAB - 2018 (adivinar.m)
+%% CURSO BASICO DE MATLAB - 2019 (adivinar.m)
 % -------------------------------------------------------------------------
 % David Lopez-Garcia       
 % dlopez@ugr.es
-% CIMCYC - Universidad de Granada
+% CIMCYC - Universidad de Granadax
 % -------------------------------------------------------------------------
 
 clc;
@@ -19,12 +19,12 @@ nPensado = randi([1 9],1,1);
 acertado = false;
 
 while (acertado == false)
-    respuesta = input('¿Que numero crees que he pensado? >> ');
+    respuesta = input('Que numero crees que he pensado? >> ');
     if respuesta == nPensado
-        disp('¡Correcto! ¡Has ganado!');
+        disp('Correcto! Has ganado!');
         acertado = true;
         % break;
     else
-        disp('¡Has fallado! Vuelve a intentarlo...');
+        disp('Has fallado! Vuelve a intentarlo...');
     end
 end

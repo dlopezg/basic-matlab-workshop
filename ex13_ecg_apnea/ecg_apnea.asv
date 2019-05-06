@@ -1,0 +1,60 @@
+%% CURSO BASICO DE MATLAB - 2019 (erp.m)
+% -------------------------------------------------------------------------
+% David Lopez-Garcia
+% dlopez@ugr.es
+% CIMCYC - Universidad de Granada
+% -------------------------------------------------------------------------
+
+clc
+clear all
+
+% En este ejercicio vamos a trabajar con un registro del
+% electrocardiograma, para ello, lo primero que vamos a hacer es cargar los
+% datos al workspace de Matlab:
+
+load sample_ecg_data.mat;
+
+% Cuando cargamos este archivo se nos cargan dos variables:
+%
+% ecg: Vector de datos de ECG [niveles de voltage].
+% time: Vector con los valores temporales que corresponden a cada muestra.
+
+%% 1. Cálculo de la frecuencia de muestreo del registro:
+% Para calcular la frecuencia de muestreo del registro, calculamos la
+% diferencia temporal entre dos muestras del mismo. Esto nos indica cada
+% cuanto tiempo se tomaron esas muestras (periodo). La frecuencia de
+% muestreo siempre será la inversa del periodo.
+
+periodo = time(2)-time(1);
+frecuencia = 1 / periodo;
+
+%% Representación del registro:
+% Ahora vamo
+for i = 1 : length(ecg)
+    plot(time(1:i),ecg(1:i),'r');
+    xlim([0 8]);
+    ylim([-3 3]);
+    hold on
+    pause(periodo)
+end
+
+%% Contar los pulsos:
+
+nPulses = 0;
+counting = 0;
+
+for i = 1 : length(ecg)
+    if ecg(i) > .4 && ecg(i+1) > ecg(i) && counting == false
+        nPulses = nPulses + 1;
+        counting = true;
+    end
+    
+    if ecg(i) > .4 && ecg(i+1) < .4 && counting == true
+        counting = false;
+    end
+end
+
+%% Otra forma:
+findpeaks(ecg,'MinPeakProminence',0.4);
+n_peaks = length(peaks);
+

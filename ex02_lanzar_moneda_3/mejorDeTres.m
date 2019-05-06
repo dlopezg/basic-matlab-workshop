@@ -1,4 +1,4 @@
-%% CURSO BASICO DE MATLAB - 2018 (mejorDeTres.m)
+%% CURSO BASICO DE MATLAB - 2019 (mejorDeTres.m)
 % -------------------------------------------------------------------------
 % David Lopez-Garcia       
 % dlopez@ugr.es
@@ -30,7 +30,19 @@ end
 
 % Mostramos por pantalla que ha salido mas veces
 if nVecesCara > nVecesCruz
-    disp('¡Ha ganado cara!');
+    disp('Ha ganado cara!');
 else
-    disp('¡Ha ganado cruz!');
+    disp('Ha ganado cruz!');
+end
+
+for i = 1:9
+    
+    aleatorio = rand(); % Generamos el numero aleatorio
+    
+    if aleatorio <= 0.5 % Elegimos con una probabilidad del 50%
+        nVecesCara = nVecesCara + 1;
+    else
+        nVecesCruz = nVecesCruz + 1;
+    end
+    
 end

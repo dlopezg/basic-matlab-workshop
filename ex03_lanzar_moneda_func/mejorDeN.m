@@ -1,4 +1,4 @@
-%% CURSO BASICO DE MATLAB - 2018 (mejorDeN.m)
+%% CURSO BASICO DE MATLAB - 2019 (mejorDeN.m)
 % -------------------------------------------------------------------------
 % David Lopez-Garcia       
 % dlopez@ugr.es
@@ -22,9 +22,9 @@ disp (['Cara ha salido ' int2str(nVecesCara) ' veces.']);
 disp (['Cruz ha salido ' int2str(nVecesCruz) ' veces.']);
 
 if nVecesCara > nVecesCruz
-    disp('¡Ha ganado cara!');
+    disp('Ha ganado cara!');
 elseif nVecesCara < nVecesCruz
-    disp('¡Ha ganado cruz!');
+    disp('Ha ganado cruz!');
 else
-    disp('¡Empate!')
+    disp('Empate!')
 end
