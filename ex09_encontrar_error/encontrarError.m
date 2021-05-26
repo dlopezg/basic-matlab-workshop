@@ -1,4 +1,4 @@
-%% CURSO BASICO DE MATLAB - 2018 (encontrarError.m)
+%% CURSO BASICO DE MATLAB - 2021 (encontrarError.m)
 % -------------------------------------------------------------------------
 % David Lopez-Garcia
 % dlopez@ugr.es

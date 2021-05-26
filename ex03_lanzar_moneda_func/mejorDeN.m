@@ -1,4 +1,4 @@
-%% CURSO BASICO DE MATLAB - 2019 (mejorDeN.m)
+%% CURSO BASICO DE MATLAB - 2021 (mejorDeN.m)
 % -------------------------------------------------------------------------
 % David Lopez-Garcia       
 % dlopez@ugr.es

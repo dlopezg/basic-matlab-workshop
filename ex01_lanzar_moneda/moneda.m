@@ -1,4 +1,4 @@
-%% CURSO BASICO DE MATLAB - 2018 (moneda.m)
+%% CURSO BASICO DE MATLAB - 2021 (moneda.m)
 % -------------------------------------------------------------------------
 % David Lopez-Garcia       
 % dlopez@ugr.es
@@ -16,8 +16,8 @@ aleatorio = rand(); % Generamos un numero aleatorio
 
 if aleatorio <= 0.5
     % Mostrar por pantalla el resultado
-    disp('¡Ha salido cara!');
+    disp('Ha salido cara!');
 else
     % Mostrar por pantalla el resultado
-    disp('¡Ha salido cruz!');
+    disp('Ha salido cruz!');
 end

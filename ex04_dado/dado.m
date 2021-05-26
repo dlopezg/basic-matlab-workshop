@@ -1,4 +1,4 @@
-%% CURSO BASICO DE MATLAB - 2018 (dado.m)
+%% CURSO BASICO DE MATLAB - 2021 (dado.m)
 % -------------------------------------------------------------------------
 % David Lopez-Garcia       
 % dlopez@ugr.es

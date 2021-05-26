@@ -1,4 +1,4 @@
-%% CURSO BASICO DE MATLAB - 2019 (info_lluvia.m)
+%% CURSO BASICO DE MATLAB - 2021 (info_lluvia.m)
 % -------------------------------------------------------------------------
 % David Lopez-Garcia
 % dlopez@ugr.es

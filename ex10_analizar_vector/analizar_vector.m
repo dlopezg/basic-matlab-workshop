@@ -1,4 +1,4 @@
-%% CURSO BASICO DE MATLAB - 2019 (analizar_vector.m)
+%% CURSO BASICO DE MATLAB - 2021 (analizar_vector.m)
 % -------------------------------------------------------------------------
 % David Lopez-Garcia
 % dlopez@ugr.es

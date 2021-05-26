@@ -1,4 +1,4 @@
-%% CURSO BASICO DE MATLAB - 2019 (erp.m)
+%% CURSO BASICO DE MATLAB - 2021 (erp.m)
 % -------------------------------------------------------------------------
 % David Lopez-Garcia
 % dlopez@ugr.es
