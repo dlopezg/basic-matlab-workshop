@@ -1,8 +1,8 @@
-%% CURSO BASICO DE MATLAB - 2021 (mejorDeTres.m)
+%% CURSO BASICO DE MATLAB - 2023 (mejorDeTres.m)
 % -------------------------------------------------------------------------
 % David Lopez-Garcia       
 % dlopez@ugr.es
-% CIMCYC - Universidad de Granada
+% Universidad de Granada
 % -------------------------------------------------------------------------
 
 clc;
@@ -33,16 +33,4 @@ if nVecesCara > nVecesCruz
     disp('Ha ganado cara!');
 else
     disp('Ha ganado cruz!');
-end
-
-for i = 1:9
-    
-    aleatorio = rand(); % Generamos el numero aleatorio
-    
-    if aleatorio <= 0.5 % Elegimos con una probabilidad del 50%
-        nVecesCara = nVecesCara + 1;
-    else
-        nVecesCruz = nVecesCruz + 1;
-    end
-    
 end

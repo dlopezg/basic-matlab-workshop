@@ -1,8 +1,8 @@
-%% CURSO BASICO DE MATLAB - 2021 (mejorDeN.m)
+%% CURSO BASICO DE MATLAB - 2023 (mejorDeN.m)
 % -------------------------------------------------------------------------
 % David Lopez-Garcia       
 % dlopez@ugr.es
-% CIMCYC - Universidad de Granada
+% Universidad de Granada
 % -------------------------------------------------------------------------
 
 clc;

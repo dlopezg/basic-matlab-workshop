@@ -1,8 +1,8 @@
-%% CURSO BASICO DE MATLAB - 2021 (moneda.m)
+%% CURSO BASICO DE MATLAB - 2023 (moneda.m)
 % -------------------------------------------------------------------------
 % David Lopez-Garcia       
 % dlopez@ugr.es
-% CIMCYC - Universidad de Granada
+% Universidad de Granada
 % -------------------------------------------------------------------------
 
 clc;

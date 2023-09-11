@@ -1,8 +1,8 @@
-%% CURSO BASICO DE MATLAB - 2021 (adivinar.m)
+%% CURSO BASICO DE MATLAB - 2023 (adivinar.m)
 % -------------------------------------------------------------------------
 % David Lopez-Garcia       
 % dlopez@ugr.es
-% CIMCYC - Universidad de Granadax
+% Universidad de Granadax
 % -------------------------------------------------------------------------
 
 clc;
